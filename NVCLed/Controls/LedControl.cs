@@ -33,9 +33,6 @@ namespace NVCLed.Controls
       Thickness _Margin = new Thickness(Margin.Left, Margin.Top, Margin.Right, Margin.Bottom);
       Margin = new Thickness(0, 0, 0, 0);
 
-      HorizontalAlignment = HorizontalAlignment.Center;
-      VerticalAlignment = VerticalAlignment.Center;
-
       Canvas panel = new Canvas();
       Content = panel;
       panel.Children.Clear();
@@ -136,7 +133,7 @@ namespace NVCLed.Controls
       RadialGradientBrush rgb = new RadialGradientBrush(new GradientStopCollection
       {
         new GradientStop(Color.FromArgb(192, 255, 255, 255), 0),
-        new GradientStop(Color.FromArgb(255, 169, 169, 169), 0.5)
+        new GradientStop(Color.FromArgb(64, 169, 169, 169), 0.5)
       });
       new TransformGroup().Children.Add(new ScaleTransform
       {

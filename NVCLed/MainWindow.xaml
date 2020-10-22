@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="200" Width="400">
   <Grid>
-    <Rectangle Width="100" Height="100" Fill="LightPink"/>
-    <controls:LedControl/>
+    <Rectangle Width="100" Height="100" Fill="#FFFF0000"/>
+    <controls:LedControl />
   </Grid>
 </Window>
